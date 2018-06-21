@@ -27,7 +27,7 @@ public class AlunoRepositoryTest {
 	@Test
 	public void testeSaveAluno() {
 		Aluno aluno = new Aluno();
-		aluno.setNome("Etrela");
+		aluno.setNome("Estrela");
 		aluno.setEmail("teste@teste");
 		aluno.setMatricula(1);
 		this.entityManager.persist(aluno);
